@@ -10,31 +10,47 @@ Main software will be controlled by Home Assistant.
 - Temperature
 
   Simple measurement of temperature
+
   DS18B20
+
   3.3V + GND
+
   GPIO 21
 
 - PH Sensor
 
+
 - NH Sensor
 
+
 - Water Sensor
+
   Measurement of sensor in or out water (level warning)
+
   CQRSENYW002
+
   3.3V + GND
+
   GPIO 20
+
 
 - Out 1
 
+
 - Out 2
+
 
 - Out 3
 
+
 - Out 4
+
 
 - Led Red
 
+
 - Led Green
+
 
 - Camera
 
