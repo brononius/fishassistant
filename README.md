@@ -4,7 +4,14 @@ ToDo List for Fish Assistant
 ## What I’m Trying
 A complete installation to monitor the water for example a fish tank, pond...
 Different monitoring tools, controls (pump, lights...). 
+
 Main software will be controlled by Home Assistant.
+
+I put all my scripts in the folder /diy/
+
+If you change this, all scripts need to be updated accordingly.
+
+
 
 ## Sensors, steps
 - Temperature
