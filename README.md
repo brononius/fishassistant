@@ -7,7 +7,8 @@ Different monitoring tools, controls (pump, lights...).
 Main software will be controlled by Home Assistant.
 
 ## Sensors, steps
-- Temperature \n
+- Temperature
+
   Simple measurement of temperature
   DS18B20
   3.3V + GND
