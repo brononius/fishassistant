@@ -1,20 +1,26 @@
 
 # Quality meter for Fishtank, Pond...
 
-Under Development
+--- Under Development ---
 
-
-## Intro
 A complete installation to monitor the water for example a fish tank, pond...
 
-Different monitoring tools, controls (pump, lights...).
+- Different monitoring tools as Temperatur, PH, NH, waterlevel ...
+- Different controls as pump, lights ...
+- Extra's as realtime video ...
+- Hardware design, 3D print casing...
+- Control software by Home Assistant. Dashboard, rules ...
 
-Main software will be controlled by Home Assistant (MQTT).
+
+## Hard- & Software
+
+### Raspberry pi
+Central board is a raspberry pi Zero 2W.
 
 I put all my scripts in the folder /diy/. If you change this, all scripts need to be updated accordingly.
 
 
-## Sensors, steps
+
 ### Temperature
 Simple measurement of temperature
 - Hardware: DS18B20
