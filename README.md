@@ -19,6 +19,9 @@ Central board is a raspberry pi Zero 2W.
 
 I put all my scripts in the folder /diy/. If you change this, all scripts need to be updated accordingly.
 
+To run all scripts below, I'm using just 1 script where you define the timing, the kind of sensors you have, the LED status...
+
+- Script: valueAll.py
 
 
 ### Temperature
@@ -89,7 +92,10 @@ Showing the status of the running scripts. Can also be controlled from outside (
 Raspberry PI camera, to show the enviroment (eg pond, fish tank...)
   Motion
 
-### All Scripts
-To run all scripts, I'm using 1 script where you define the timing, the kind of sensors you have, the LED status...
+### Home Assistant
 
-- Script: valueAll.py
+#### MQTT connectivity
+
+#### Dashboard
+
+#### Rules, automations
