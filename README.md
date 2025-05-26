@@ -30,7 +30,7 @@ Simple measurement of temperature
 - Connectivity: 3.3V + GND + GPIO 21
 - Symbolic link: /diy/gpio21InTemperature -> /sys/bus/w1/devices/28-0000008564fc/w1_slave
 
-        ln -s /sys/bus/w1/devices/28-0000008564fc/w1_slave /diy/gpio21InTemperature
+      ln -s /sys/bus/w1/devices/28-0000008564fc/w1_slave /diy/gpio21InTemperature
 
 - Script: /diy/valueTemperature.py
 
