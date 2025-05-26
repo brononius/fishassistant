@@ -1,16 +1,18 @@
-# Quick and Dirty
-ToDo List for Fish Assistant
 
-## What I’m Trying
+# Quality meter for Fishtank, Pond...
+
+Under Development
+
+
+## Intro
 A complete installation to monitor the water for example a fish tank, pond...
 
 Different monitoring tools, controls (pump, lights...).
 
-Main software will be controlled by Home Assistant.
+Main software will be controlled by Home Assistant (MQTT).
 
-I put all my scripts in the folder /diy/.
+I put all my scripts in the folder /diy/. If you change this, all scripts need to be updated accordingly.
 
-If you change this, all scripts need to be updated accordingly.
 
 ## Sensors, steps
 ### Temperature
