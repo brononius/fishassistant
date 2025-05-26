@@ -28,7 +28,10 @@ To run all scripts below, I'm using just 1 script where you define the timing, t
 Simple measurement of temperature
 - Hardware: DS18B20
 - Connectivity: 3.3V + GND + GPIO 21
-- Symbolic link: gpio21InTemperature -> /sys/bus/w1/devices/28-0000008564fc/w1_slave
+- Symbolic link: /diy/gpio21InTemperature -> /sys/bus/w1/devices/28-0000008564fc/w1_slave
+(``` 
+ln -s /sys/bus/w1/devices/28-0000008564fc/w1_slave /diy/gpio21InTemperature
+```) 
 - Script: /diy/valueTemperature.py
 
 
