@@ -43,8 +43,24 @@ Simple measurement of temperature
 
 
 
-### NH Sensor
+### TDS Sensor
+TDS measures the total concentration of dissolved solids in the water.
 
+    0~50: Ideal Drinking water...
+
+    50~170: Filtration, springs...
+
+    170~300: Hard water...
+
+    300~500: High...
+
+    500+: EPA Max...
+
+
+
+- Hardware: 
+- Connectivity: 3.3V + GND + GPIO 20
+- Script: /diy/valueInWater.py
 
 
 ### Water Sensor

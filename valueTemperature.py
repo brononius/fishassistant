@@ -68,7 +68,7 @@ if __name__ == "__main__":
         try:
             with open(log_filename, "a") as log_file:
                 log_file.write(log_entry)
-            print(f"Temperatuur {temperature:.1f}°C")
+            print(f"Temperatuur: {temperature:.1f}°C")
             sys.exit(0) # Succes
         except Exception as e:
             print(f"Fout bij wegschrijven naar logbestand: {e}")
