@@ -127,8 +127,8 @@ Showing the status of the running scripts. Can also be controlled from outside (
 
 ### Camera
 Raspberry PI camera, to show the enviroment (eg pond, fish tank...)
-  Motion
 
+- Seperate manual here: camera.md
 
 
 ### Home Assistant
