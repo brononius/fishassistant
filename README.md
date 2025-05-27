@@ -56,11 +56,9 @@ TDS measures the total concentration of dissolved solids in the water.
 
     500+: EPA Max...
 
-
-
-- Hardware: 
-- Connectivity: 3.3V + GND + GPIO 20
-- Script: /diy/valueInWater.py
+- Hardware: CQRobot TDS + AZDelivery ADS1115 ADC 16-bit 4-channel
+- Connectivity: 5V + GND + GPIO2 + GPIO3 + A3 
+- Script: /diy/valueInTds.py
 
 
 ### Water Sensor
