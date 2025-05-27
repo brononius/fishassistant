@@ -43,7 +43,7 @@ Note, the data is not secure! So everybody on your network has full access to th
 
 - To test it, run:
 
-     ./mediamtx mediamtx.yml 
+      ./mediamtx mediamtx.yml 
 
 - Open VLC on your desktop, and connect to:
 
