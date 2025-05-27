@@ -40,7 +40,8 @@ def knipper_groen(aantal=3, snelheid=0.5):
 RUN_INTERVAL_SECONDS = 5  # Standaard elke minuut, kun je aanpassen
 
 SCRIPTS_TO_RUN = {
-    "/diy/valueTemperature.py": "N",
+    "/diy/valueTemperature.py": "Y",
+    "/diy/valueTds.py": "Y",
     "/diy/valueInWater.py": "Y",
 }
 
@@ -51,7 +52,7 @@ def run_script(script_name):
         result = subprocess.run(["python3", f"{script_name}"], capture_output=True, text=True)
         print(result.stdout.strip()) # Print de output van het script
         if result.returncode == 0:
-            print(f"Script '{script_name}' succesvol uitgevoerd.")
+#            print(f"Script '{script_name}' succesvol uitgevoerd.")
             return True
         else:
             print(f"Script '{script_name}' gaf een foutcode: {result.returncode}")
@@ -72,7 +73,7 @@ if __name__ == "__main__":
         while True:
             now = datetime.now()
             formatted_time = now.strftime("%d/%m/%Y %H:%M:%S")
-            print(f"\nPeriodieke run ({formatted_time}):")
+#            print(f"\nPeriodieke run ({formatted_time}):")
             all_scripts_ok = True
 
             for script, should_run in SCRIPTS_TO_RUN.items():
@@ -84,7 +85,7 @@ if __name__ == "__main__":
                 # Alle scripts succesvol (return code 0)
                 set_groen_status(GPIO.HIGH)
                 set_rood_status(GPIO.LOW)
-                print("Alle geconfigureerde scripts succesvol uitgevoerd.")
+#               print("Alle geconfigureerde scripts succesvol uitgevoerd.")
             else:
                 # Minstens één script gaf een non-zero return code
                 print("Minstens één script heeft een fout geretourneerd!")
