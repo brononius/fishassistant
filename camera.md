@@ -57,7 +57,7 @@ Create a service file using
     vim /etc/systemd/system/mediamtx.service
 
 
-Add follwoing:
+Add following:
 
     [Unit]
     Description=MediaMTX service

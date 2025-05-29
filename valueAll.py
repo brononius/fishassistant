@@ -41,6 +41,7 @@ RUN_INTERVAL_SECONDS = 5  # Standaard elke minuut, kun je aanpassen
 
 SCRIPTS_TO_RUN = {
     "/diy/valueTemperature.py": "Y",
+    "/diy/valuePh.py": "Y",
     "/diy/valueTds.py": "Y",
     "/diy/valueInWater.py": "Y",
 }
